@@ -1,0 +1,24 @@
+headers:
+  authority: 'www.aliexpress.com'
+  method: 'GET'
+  scheme: 'https'
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+  accept-encoding: 'gzip, deflate, br'
+  accept-language: 'zh-CN,zh;q=0.9'
+  upgrade-insecure-requests: '1'
+  user-agent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/68.0.3440.75 Chrome/68.0.3440.75 Safari/537.36'
+
+#mysql数据库信息
+db:
+  host: 'localhost'
+  username: 'root'
+  passwd: 'Aa123456'
+  port: 3306
+  dbname: 'smt'
+
+#redis连接信息
+redis:
+  host: 'localhost'
+  port: 6379
+  password: '123456'
+
